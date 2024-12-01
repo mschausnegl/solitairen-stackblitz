@@ -1,12 +1,4 @@
-document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>Solitairen</h1>
-    <div class="card">
-      <button id="start" type="button">Start Game</button>
-    </div>
-  </div>
-`
+import './style.css'
 
-document.querySelector('#start').addEventListener('click', () => {
-  console.log('Starting game...')
-})
+const app = document.querySelector('#app')
+app.innerHTML = '<h1>Hello Solitaire!</h1>'
